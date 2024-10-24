@@ -1,0 +1,23 @@
+﻿
+/* menu_global */
+
+
+.menu_global li {
+    display: inline-flex;
+    margin: 10px;
+	
+}
+
+.menu_global a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.menu_global a:hover {
+    color: red;
+    transition: ease 0.5s;
+}
+
+
+
+

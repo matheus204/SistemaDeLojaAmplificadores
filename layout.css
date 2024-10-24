@@ -1,0 +1,121 @@
+﻿#principal {
+	margin: 50px;
+	font-family: arial;
+	color: deepskyblue;
+	background-color: rgb(0, 0, 0);
+}
+
+/* div TOPO */
+#topo {	
+	padding: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 0px auto 20px auto;	
+	grid-gap: 5px;
+	border-radius: 20px;
+	border: solid;
+	color: deepskyblue;
+	background-color: black;
+	justify-content: space-between;
+}
+
+body{
+	background-color: black;
+	color: deepskyblue;
+	
+}
+
+#logo h1 {
+	line-height: 10px;
+	word-spacing: 0px; 
+}
+
+#logo {
+	color: deepskyblue;
+}
+
+#logo h4{
+	line-height: 0px;
+	word-spacing: 40px; 
+}
+
+
+/* div CONTEUDO_ESPECIFICO  */
+#conteudo_especifico {	
+	padding: 5px;
+	margin: auto 150px auto 150px;
+	text-align: center;
+	background: black;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 6.5px );
+	-webkit-backdrop-filter: blur( 6.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	display:inline-flexbox;
+
+}
+
+.btn {
+		  padding: 5px 10px;
+		  font-size: 12px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: deepskyblue;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+}
+		
+.btn:active {
+			background-color: red;
+			box-shadow: 0 5px #666;
+			color: black;
+		  transform: translateY(4px);
+}
+
+a:visited{
+	color: cyan;
+	text-decoration:dotted;
+}
+
+a:hover{
+	transition: ease 0.5s;
+	color: red;
+}
+
+a{
+	color: blue;
+}
+
+a.linkRegistro{
+	color: gold;
+}
+
+
+/* div RODAPE */
+#rodape {	
+	padding: 0px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px;
+	margin: 20px auto 0px auto;
+	grid-gap: 5px;
+	border-radius: 10px;
+	border: solid;
+	background-color: black;	
+	justify-content: space-between;
+}
+
+#rodape h6{
+	line-height: 0px;
+	word-spacing: 0px; 
+	margin: 12px auto 12px 12px;
+}
+
+
+.borda {
+	border: solid black 2px;
+}
+
